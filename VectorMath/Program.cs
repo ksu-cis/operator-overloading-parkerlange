@@ -31,7 +31,25 @@ namespace VectorMath
             Console.WriteLine("-------------------------------------------");
             Console.WriteLine($"Opertator: {one++}");
             Console.WriteLine($"Magnitude: {~one}");
+            if (one)
+            {
+                Console.WriteLine($"{one} is Truthy");
 
+            }
+            else
+            {
+                Console.WriteLine($"{one} is Falsy");
+            }
+
+            if (Vector3.Zero)
+            {
+                Console.WriteLine($"{one} is Truthy");
+
+            }
+            else
+            {
+                Console.WriteLine($"{one} is Falsy");
+            }
         }
     }
 }
